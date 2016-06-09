@@ -51,7 +51,7 @@ a {
   background-color: black; }
   .navbar-custom .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
+    
     color: white; }
     .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
       outline: none; }
@@ -99,8 +99,8 @@ a {
   padding: 100px 0;
   text-align: center;
   color: white;
-  
- 
+
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
