@@ -1,0 +1,32 @@
+body
+{
+  background-image: url(../img/sfondo.jpg);
+  width: 100%;
+
+}
+.myButton {
+
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	border-radius:35px;
+	border:1px solid #fff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Josefin Sans', sans-serif;
+	font-size:18px;
+	padding:23px 76px;
+	text-decoration:none;
+  margin: 300px 50px;
+
+}
+/* .myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} */
+.myButton:hover{
+  color: #fff; /* #2C314D */
+}
