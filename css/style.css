@@ -71,8 +71,7 @@ body{
   margin-top:5%;
   margin-left: 5%;
   margin-bottom:5%;
-
-
+  padding: 0px;
   /*margin:48px 113px 48px 70px;*/
 
 
@@ -91,17 +90,23 @@ body{
 }
 .icone{
   position: absolute;
-/* top:242%;
+  top:94.3%;
   left:50%;
   -webkit-transform: translate(-50%,-50%);
   -moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%, -50%);
-  transform: translate(-50%,-50%); */
+  transform: translate(-50%,-50%);
 
 }
 .icone img{
   padding-left: 13px;
 
+
+}
+icone:hover{
+
+}
+#giu-su{
 
 }
