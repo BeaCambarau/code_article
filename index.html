@@ -1,122 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="js/vendor/fullPage.js-master/dist/jquery.fullpage.min.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-    <title>02 Elastic Progress</title>
+        <div id="header">Header</div>
+        <div id="footer">Footer</div>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <div id="fullpage">
+        	<div class="section " id="section0">
+        		<div class="intro">
+        			<h1>Fixed elements</h1>
+        			<p>Create your own headers and footers</p>
+        		</div>
+        	</div>
+        	<div class="section" id="section1">
+        	    <div class="slide" id="slide1">
+        			<div class="intro">
+        				<h1>How to do it</h1>
+        				<p>
+        					You will need to place your header and footer outside the plugin's wrapper.
+        					This way it won't move on scrolling. Take a look at the source code of this page.
+        				</p>
+        			</div>
+        		</div>
 
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+        	    <div class="slide" id="slide2">
+        			<h1>Slide 2</h1>
+        			<img src="img/iphone-blue.png" alt="iphone" id="iphone-two" />
+        		</div>
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container" id="menu">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#indice">Indice</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#leggipiùtardi">Leggi più tardi</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#guida">Guida</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+        	</div>
+        	<div class="section" id="section2">
+        		<div class="intro">
+        			<h1>Enjoy it</h1>
+        		</div>
+        	</div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1.jpg"></div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about">
-      <div id="article_number"><img src="img/n2.png"></div>
-      <div id="white">
-        <img src="img/code.jpg"/>
-      </div>
-      <!-- <span id="white">   <span> -->
-      <div class="icone">
-        <a href="index.html"><img src="img/icone/vista.png"></a>
-        <a href="code.html" ><img src="img/icone/code.png"></a>
-        <a href="download.html" ><img src="img/icone/download.png"></a>
-        <a href="#" ><img id="giu-su" src="img/icone/giu.png"></a>
-      </div>
 
 
-    </section>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/vendor/fullPage.js-master/vendors/scrolloverflow.min.js"></script>
+        <script src="js/vendor/fullPage.js-master/dist/jquery.fullpage.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
-    <!-- Footer
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
-        </div>
-    </footer> -->
+        <script type="text/javascript">
+          $(document).ready(function() {
+            $('#fullpage').fullpage({
+              anchors: ['firstPage', 'secondPage', '3rdPage'],
+              sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+              css3: true
+            });
+          });
+        </script>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    <!-- parallax-->
-    <script src="js/parallax.min.js"></script>
-
-
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
 </html>
