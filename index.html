@@ -21,15 +21,53 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="header">Header</div>
-        <div id="footer">Footer</div>
+        <div id="header"></div>
+        <div id="footer">
+          <ul id="menu-left" class="menu">
+          	<li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
+          	<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+          </ul>
+          <ul id="menu-right" class="menu">
+            <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+          </ul>
+        </div>
 
         <div id="fullpage">
         	<div class="section " id="section0">
-        		<div class="intro">
+        		<!-- <div class="intro">
         			<h1>Fixed elements</h1>
         			<p>Create your own headers and footers</p>
-        		</div>
+        		</div> -->
+            <div class="row">
+              <div class="col-md-5 col-md-offset-1">
+                <div class="box box-height-100">
+                  <div class="icon">icon</div>
+                  <div class="content">
+                    <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box box-height-50">
+                      <div class="icon">icon</div>
+                      <div class="content">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="box box-height-50">
+                      <div class="icon">icon</div>
+                      <div class="content">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         	</div>
         	<div class="section" id="section1">
         	    <div class="slide" id="slide1">
@@ -44,7 +82,7 @@
 
         	    <div class="slide" id="slide2">
         			<h1>Slide 2</h1>
-        			<img src="img/iphone-blue.png" alt="iphone" id="iphone-two" />
+
         		</div>
 
         	</div>
@@ -65,15 +103,6 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
-        <script type="text/javascript">
-          $(document).ready(function() {
-            $('#fullpage').fullpage({
-              anchors: ['firstPage', 'secondPage', '3rdPage'],
-              sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
-              css3: true
-            });
-          });
-        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
