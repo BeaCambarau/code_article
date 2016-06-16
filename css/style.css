@@ -459,7 +459,7 @@ h1 {
   height: 60px;
   display: block;
   width: 100%;
-  background: #333;
+  background: none;
   z-index: 9;
   color: #f2f2f2; }
 
@@ -522,5 +522,11 @@ h1 {
     background-color: #7E8F7C; }
     .section#section2 .box {
       background-color: #657464; }
+      img {
+        width: 100%;
+
+
+        }
+    }
 
 /*# sourceMappingURL=style.css.map */
