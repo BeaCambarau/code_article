@@ -10,7 +10,8 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4;
+  font-family: 'Josefin Sans', sans-serif; }
 
 /*
  * Remove text-shadow in selection highlight:
@@ -262,7 +263,7 @@ abbr, acronym {
 /* Custom CSS
  * --------------------------------------- */
 body {
-  font-family: arial,helvetica;
+  font-family: 'Josefin Sans', sans-serif;
   color: #333;
   color: rgba(0, 0, 0, 0.5); }
 
@@ -276,12 +277,15 @@ h1 {
   font-size: 6em; }
 
 p {
-  font-size: 2em; }
+  font-size: 1em;}
 
 .intro p {
   width: 50%;
-  margin: 0 auto;
-  font-size: 1.5em; }
+  margin: 80px 80px;
+  font-size: 1.5em;
+  color: red;
+  text-align: left;
+ }
 
 .menu li {
   display: inline-block;
@@ -448,7 +452,10 @@ h1 {
   padding: 0; }
 
 .intro p {
-  color: #fff; }
+  font-size: 1em;
+  font-family: monaco;
+
+}
 
 /* Centered texts in each section
 * --------------------------------------- */
@@ -489,7 +496,6 @@ h1 {
   text-align: center; }
   .section .box {
     background-color: #972e0b;
-    width: 100%;
     margin-bottom: 30px;
     padding: 30px;
     position: relative; }
@@ -498,26 +504,36 @@ h1 {
       background-color: #333;
       width: 100px;
       white-space: nowrap;
-      color: white;
+      /* color: white; */
       text-align: center;
       position: absolute;
       top: 15px;
       left: -15px; }
     .section .box .content {
       height: 100%;
-      background-color: white; }
+       }
   .section .box-height-100 {
-    height: 500px; }
+    height: 621px;
+    width: 406px;}
   .section .box-height-50 {
-    height: 250px; }
+    height: 213px;
+    width: 345px;
+
+  }
   .section#section0 {
     background-color: #C63D0F; }
     .section#section0 .box {
       background-color: #972e0b; }
   .section#section1 {
-    background-color: #1BBC9B; }
+    background-color: rgba(44, 49, 77, 0.97);
+    }
     .section#section1 .box {
-      background-color: #158f76; }
+      background-color: #282828; }
+      .section#section1 .box-height-50{
+        background-color: #2C314D;
+        
+      }
+
   .section#section2 {
     background-color: #7E8F7C; }
     .section#section2 .box {
