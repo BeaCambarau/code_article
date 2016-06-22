@@ -215,6 +215,7 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
+
 @CHARSET "ISO-8859-1";
 /* Reset CSS
  * --------------------------------------- */
@@ -291,8 +292,7 @@ p {
   display: inline-block;
   margin: 10px;
   color: #000;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.5);
+  
   -webkit-border-radius: 10px;
   border-radius: 10px; }
 
@@ -313,8 +313,8 @@ p {
 
 .menu li a,
 .menu li.active a {
-  padding: 9px 18px;
-  display: block; }
+  /* padding: 9px 18px; */
+    display: inline-block; }
 
 .menu li.active a {
   color: #fff; }
@@ -534,18 +534,24 @@ h1 {
 
   }
   .section#section0 {
-    background-color: #C63D0F; }
+    background-color: #C63D0F;
+    }
     .section#section0 .box {
       background-color: #972e0b; }
-  .section#section1 {
+    .section#section1 {
     background-color: rgba(44, 49, 77, 0.97);
     }
     .section#section1 .box {
       background-color: #282828; }
      .section#section1 .box-height-50{
-        background-color: #2C314D;
+        background-color: #2C314D;}
+    .render{
+          height: 80%;
+          padding: 0px 20px;
+        }
 
       }
+
 
   .section#section2 {
     background-color: #C63D0F; }
@@ -559,9 +565,7 @@ h1 {
       .section#section2 {
         background-color: rgba(44, 49, 77, 0.97);}
 
-      img {
-        width: 100%;
-        }
+
       #h5 p {
         color: #fff;
         font-size: 11px;

@@ -1,6 +1,6 @@
 
 $spacer: 30px;
-$background_section: #C63D0F;
+$background_section: #2C314D;
 $background_section0: #C63D0F;
 $background_section1: #1BBC9B;
 $background_section2: #7E8F7C;
@@ -17,7 +17,8 @@ $background_box_darken_percentage: 10;
 		padding:0;
 	}
 	.intro p{
-		color: #fff;
+
+
 	}
 
 	/* Centered texts in each section
@@ -90,11 +91,13 @@ $background_box_darken_percentage: 10;
       position: absolute;
       top: $spacer/2;
       left: -$spacer/2;
+
+
     }
 
     .content {
       height: 100%;
-      background-color: white;
+
     }
   }
   .box-height-100{
@@ -102,12 +105,13 @@ $background_box_darken_percentage: 10;
   }
   .box-height-50{
     height: 250px;
+
   }
   .row {
   }
   &#section0{
     background-color: $background_section0;
-    .box {
+		.box {
       background-color: darken($background_section0, $background_box_darken_percentage);
     }
   }
@@ -116,12 +120,14 @@ $background_box_darken_percentage: 10;
     .box{
       background-color: darken($background_section1, $background_box_darken_percentage);
     }
+		
   }
   &#section2{
     background-color: $background_section2;
     .box {
       background-color: darken($background_section2, $background_box_darken_percentage);
     }
+
   }
 
 }
