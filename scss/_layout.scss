@@ -4,6 +4,7 @@ $background_section: #2C314D;
 $background_section0: #C63D0F;
 $background_section1: #1BBC9B;
 $background_section2: #7E8F7C;
+$background_section3: #7E8F7C;
 $background_box_darken_percentage: 10;
 
 
@@ -120,7 +121,7 @@ $background_box_darken_percentage: 10;
     .box{
       background-color: darken($background_section1, $background_box_darken_percentage);
     }
-		
+
   }
   &#section2{
     background-color: $background_section2;
