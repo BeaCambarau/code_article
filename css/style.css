@@ -474,6 +474,7 @@ src: url("../fonts/Baron Neue.otf") format("opentype");
 }
 
 
+
 /* Centered texts in each section
 * --------------------------------------- */
 /* Fixed header and footer.
@@ -593,13 +594,17 @@ src: url("../fonts/Baron Neue.otf") format("opentype");
       #js p {
         color: #fff;
         font-size: 10px;
-        margin-top: 7px;
+        margin-top: 10px;
         margin-left: 35px;
-        margin-top: 25px;
+
 
 
       }
 
+    }
+    .section #section3{
+      width: 100%;
+      /* background-image: url(img/dw.jpg); */
     }
 
 
