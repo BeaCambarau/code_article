@@ -55,13 +55,26 @@ body{
 .intro{
   max-height: 768px;
 }
-#about{
+#render{
   display: inline-block;
   width: 100%;
   /* max-height: 768px; */
   background-color: #3C3C3C;
   position: relative;
 
+}
+#render h1{
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  font-family: Baron Neue;
+  src: url("fonts/Baron Neue.otf") format("opentype");
+  color: #444F82;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
 
 #white{
@@ -103,11 +116,33 @@ body{
 .icone img{
   padding-left: 13px;
 
-
 }
-icone:hover{
 
-}
 #giu-su{
 
 }
+#footer {
+  bottom: 0px; 
+  position: fixed; /* sistemare no fisse sulla prima sezione */
+  height: 60px;
+  display: block;
+  width: 100%;
+  background: none;
+  z-index: 9;}
+
+#footer ul.menu {
+  position: relative; }
+
+#footer ul.menu#menu-left {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    text-align: left; }
+#footer ul.menu#menu-right {
+    position: absolute;
+    width: 400px;
+    right: 0;
+    text-align: right; }
+#footer ul.menu li {
+    display: inline-block; }
+
