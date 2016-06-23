@@ -90,37 +90,111 @@ body{
 
 
 }
-#white img{
+ .section .box {
+   
+    margin-bottom: 30px;
+    padding: 30px;
+    position: relative; }
 
+    .section .box .icon {
+      padding: 30px;
+      width: 100px;
+      white-space: nowrap;
+      font-size: 4em; 
+      /* color: white; */
+      text-align: center;
+      position: absolute;
+      top: 15px;
+      left: -30px; }
+     .icon-destra
+     {
+       padding: 30px;
+      
+        width: 100px;
+       white-space: nowrap;
+      /*color: white; */
+       text-align: center;
+       position: absolute;
+       top: 15px;
+       right: -49px;
+     }
+    .section .box .content {
+      height: 100%;
+       }
 
+  .section .box-height-100 {
+    height: 621px;
+    width: 406px;
+    background-color: #282828;
 }
-#article_number{
-  float: right;
-  padding-top: 132px;
-  padding-right: 70px;
-  margin-right: 3.5%;
+  .section .box-height-50 {
+    height: 213px;
+    width: 345px;
+    background-color: #2C314D;
+
+  }
+  .section #code {
+    background-color: #C63D0F;
+    }
+    .section #code .box {
+      background-color: #972e0b; }
+    .section#section1 {
+    background-color: rgba(44, 49, 77, 0.97);
+    }
+    .section #code .box {
+      background-color: #282828; }
+     .section #code .box-height-50{
+        background-color: #2C314D;}
+    .render{
+          height: 80%;
+          padding: 0px 20px;
+        }
+
+      }
 
 
-}
-.icone{
-  position: absolute;
-  top:94.3%;
-  left:50%;
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%,-50%);
+  .section #code {
+    background-color: #C63D0F; }
+    .section#section2 .box {
+      background-color: #282828;
+    }
+    .section #code .box-height-50{
+        background-color: #2C314D;
 
-}
-.icone img{
-  padding-left: 13px;
+      }
+      .section #code {
+        background-color: rgba(44, 49, 77, 0.97);}
 
-}
 
-#giu-su{
+      #h5 p {
+        color: #fff;
+        font-size: 11px;
+        margin-top: 25px;
+        margin-left: 25px;
+        text-align: center;
 
-}
+      }
+      #js p {
+        color: #fff;
+        font-size: 11px;
+        margin-top:25px;
+        margin-left: 35px;
+        margin-top: 25px;
+        text-align: left;
+
+
+      }
+
+    }
+
+
+
+
+
+
+
+
+
 #footer {
   bottom: 0px; 
   position: fixed; /* sistemare no fisse sulla prima sezione */
