@@ -1,12 +1,4 @@
 
-$spacer: 30px;
-$background_section: #2C314D;
-$background_section0: #C63D0F;
-$background_section1: #1BBC9B;
-$background_section2: #7E8F7C;
-$background_section3: #7E8F7C;
-$background_box_darken_percentage: 10;
-
 
 	/* Style for our header texts
 	* --------------------------------------- */
@@ -18,7 +10,6 @@ $background_box_darken_percentage: 10;
 		padding:0;
 	}
 	.intro p{
-
 
 	}
 
@@ -68,6 +59,9 @@ $background_box_darken_percentage: 10;
 
     li {
       display: inline-block;
+			img {
+				height: 20px;
+			}
     }
   }
 }
@@ -76,6 +70,15 @@ $background_box_darken_percentage: 10;
 .section {
   background-color: $background_section;
   text-align: center;
+
+	.fp-tableCell {
+		> .content {
+			display: block;
+			margin: $spacer;
+			@include debug(blue,10px);
+		}
+	}
+
   .box {
     background-color: darken($background_section, 10);
     width: 100%;
@@ -96,7 +99,7 @@ $background_box_darken_percentage: 10;
 
     }
 
-    .content {
+    >.content {
       height: 100%;
 
     }
@@ -109,6 +112,7 @@ $background_box_darken_percentage: 10;
 
   }
   .row {
+		@include debug(purple);
   }
   &#section0{
     background-color: $background_section0;
@@ -121,6 +125,7 @@ $background_box_darken_percentage: 10;
     .box{
       background-color: darken($background_section1, $background_box_darken_percentage);
     }
+		@include debug(red);
 
   }
   &#section2{
@@ -130,5 +135,12 @@ $background_box_darken_percentage: 10;
     }
 
   }
+
+	.render {
+		@include debug(yellow);
+		img{
+			height: auto;
+		}
+	}
 
 }
