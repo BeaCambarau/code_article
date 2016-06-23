@@ -481,7 +481,7 @@ src: url("../fonts/Baron Neue.otf") format("opentype");
 * --------------------------------------- */
 #header, #footer {
   position: fixed;
-  height: 60px;
+  height: 80px;
   display: block;
   width: 100%;
   background: none;
@@ -607,5 +607,8 @@ src: url("../fonts/Baron Neue.otf") format("opentype");
       /* background-image: url(img/dw.jpg); */
     }
 
-
+#render_code{
+  
+  margin: 47px 60px 47px 74px;
+}
 /*# sourceMappingURL=style.css.map */
