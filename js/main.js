@@ -23,7 +23,7 @@ $(document).ready(function() {
       var content = $(this);
       //content.hide();
       var parent = content.parent();
-      var height = parent.height()-$("#header").height()-$("#footer").height()-170;
+      var height = parent.height()-$("#header").height()-$("#footer").height()-570;
       content.height(height);
       content.find("img").each(function(index,element){
         $(this).css({
@@ -37,7 +37,7 @@ $(document).ready(function() {
           })
         }
       })
-    console.log(parent.height())
+    //console.log(parent.height())
     })
   }
  setupContents();

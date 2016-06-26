@@ -1291,11 +1291,11 @@
         }
 
         var previousDestTop = 0;
-        /**
+
         * Returns the destination Y position based on the scrolling direction and
         * the height of the section.
         */
-        function getDestinationPosition(element){
+        /** function getDestinationPosition(element){
             var elemPosition = element.position();
 
             //top of the desination will be at the top of the viewport
@@ -1310,7 +1310,7 @@
                     position = sectionBottom;
                 }
             }
-
+*/
             //sections equal or smaller than the viewport height && scrolling down? ||  is resizing and its in the last section
             else if(isScrollingDown || (isResizing && element.is(':last-child')) ){
                 //The bottom of the destination will be at the bottom of the viewport

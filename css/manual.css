@@ -510,7 +510,7 @@ src: url("../fonts/Baron Neue.otf") format("opentype");
   #footer ul.menu#menu-right {
     position: absolute;
     width: 400px;
-    right: 143px;
+    right: 144px;
     text-align: right; }
   #footer ul.menu li {
     display: inline-block; }
@@ -652,4 +652,5 @@ src: url("../fonts/Baron Neue.otf") format("opentype");
   color: #fff; /* #2C314D */
   text-decoration: none;
 }
+
 /*# sourceMappingURL=style.css.map */

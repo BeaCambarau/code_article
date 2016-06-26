@@ -263,8 +263,7 @@ abbr, acronym {
  * --------------------------------------- */
 body {
   font-family: arial,helvetica;
-  color: #333;
-  color: rgba(0, 0, 0, 0.5); }
+  color: #333; }
 
 .wrap {
   margin-left: auto;
@@ -291,7 +290,6 @@ p {
 
 .menu li.active {
   background: #666;
-  background: rgba(0, 0, 0, 0.5);
   color: #fff; }
 
 .menu li a {
@@ -300,9 +298,6 @@ p {
 
 .menu li.active a:hover {
   color: #000; }
-
-.menu li:hover {
-  background: rgba(255, 255, 255, 0.8); }
 
 .menu li a,
 .menu li.active a {
@@ -508,7 +503,7 @@ h1 {
     height: 300px; }
   .section .box-height-100 p {
     margin-left: 70px;
-    margin-top: 6px;
+    margin-top: 10px;
     font-size: 14px; }
   .section .box-height-50 {
     height: 250px; }
