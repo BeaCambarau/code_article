@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   if(true){
     $('#fullpage').fullpage({
-      anchors: ['firstPage', 'secondPage', '3rdPage'],
+      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
       //sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
       css3: true
     });
@@ -23,7 +23,7 @@ $(document).ready(function() {
       var content = $(this);
       //content.hide();
       var parent = content.parent();
-      var height = parent.height()-$("#header").height()-$("#footer").height()-100;
+      var height = parent.height()-$("#header").height()-$("#footer").height()-170;
       content.height(height);
       content.find("img").each(function(index,element){
         $(this).css({
@@ -37,9 +37,9 @@ $(document).ready(function() {
           })
         }
       })
-      console.log(parent.height())
+    console.log(parent.height())
     })
   }
-  setupContents();
+ setupContents();
 
 });

@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/manual.css">
   <link rel="stylesheet" href="js/vendor/fullPage.js-master/dist/jquery.fullpage.min.css">
   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   <!-- font -->
@@ -27,13 +28,13 @@
   <div id="header"></div>
   <div id="footer">
     <ul id="menu-left" class="menu">
-      <li data-menuanchor="firstPage"><a href="#firstPage"><img src="img/icone/bianca_vista.png"></a></li>
-      <li data-menuanchor="secondPage"><a href="#secondPage"><img src="img/icone/code.png"></a></li>
-      <li data-menuanchor="3rdPage"><a href="#3rdPage"><img src="img/icone/download.png"></a></li>
+      <li data-menuanchor="firstPage"><a href="#section1"><img src="img/icone/bianca_vista.png"></a></li>
+      <li data-menuanchor="secondPage"><a href="#section2"><img src="img/icone/code.png"></a></li>
+      <li data-menuanchor="3rdPage"><a href="#section3"><img src="img/icone/download.png"></a></li>
 
     </ul>
     <ul id="menu-right" class="menu">
-      <li data-menuanchor="4thpage"><a href="#4thpage"><img src="img/icone/giu.png"></a></li>
+      <li data-menuanchor="4thpage"><a href="#section1"><img src="img/icone/giu.png"></a></li>
     </ul>
   </div>
 
@@ -61,10 +62,13 @@
 
       <div class=" content">
         <div class="render">
+
+          <h1 id="numero">02</h1>
+
           <img src="img/2.jpg" />
-        </div>
-      </div>
-    </div>
+        </div> <!-- render -->
+      </div> <!-- content -->
+    </div> <!-- section1 -->
 
     <div class="section" id="section2">
       <div class="content">
@@ -73,9 +77,11 @@
             <div class="box box-height-100">
 
               <div class="icon">
-                <h1 >C3<h1>
+                <h1 >C3</h1>
+                <h4 style="color:#fff; padding-top:60px; padding-left:20px;">SASS</h4>
                   <!-- <img src="img/icone/c3.png" style=" height:52px; width:83px;"> -->
                 </div>
+
 
                 <div class="content">
                   <p>#bg-container<br>
@@ -101,8 +107,7 @@
                     opacity: 0 <br>
                     transition: all 2s<br>
 
-                    .bg.active <br>
-                    opacity: 1</p>
+
                     <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
                   </div>
                 </div>
@@ -112,9 +117,10 @@
                   <div class="col-md-12">
                     <div class="box box-height-50">
                       <div class="icon-destra">
-                        <h1 >H5<h1>
-                          <!-- <img src="img/icone/h5.png" > -->
-                        </div>
+                        <h1 >H5</h1>
+
+                      </div>
+
                         <div class="content" id="h5">
                           <p> #bg-container <br>
                             #bg0.bg <br>
@@ -132,7 +138,7 @@
                     <div class="col-md-12">
                       <div class="box box-height-50">
                         <div class="icon-destra">
-                          <h1>Js<h1>
+                          <h1>Js</h1>
                             <!-- <img src="img/icone/js.png" ></div> -->
                           </div>
                           <div class="content" id="js">
@@ -155,8 +161,13 @@
                 </div>
 
 
-                <div class="section" id="section3">
-                  <img src="img/dw.jpg" style="width:100%;" >
+                <div class="section" id="section3" style=" background-image:url(img/dw.jpg)">
+                  <!-- <img src="img/dw.jpg" style="width:100%;" > -->
+                  <div id="dw">
+                    <a href="#" class="myButton">download</a>
+                    <a href="#" class="myButton">link sorgente</a>
+                    <a href="https://github.com/BeaCambarau/code_article" class="myButton">Git Hub</a>
+
 
 
                 </div>
